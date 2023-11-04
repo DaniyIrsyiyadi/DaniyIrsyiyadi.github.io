@@ -47,8 +47,8 @@
                     <td><?php echo $transaksi['jenis_transaksi'];?></td>
                     <td><?php echo $transaksi['detail_transaksi'];?></td>
                     <td>
-                      <a onclick="hapus_data(<?php echo $transaksi['id'];?>)" class="btn btn-sm btn-danger">Hapus</a>
-                      <a href="index.php?page=edit-data&& id=<?php echo $transaksi['id'];?>" class="btn btn-sm btn-success">Edit</a>
+                      <a onclick="hapus_data(<?php echo $no_transaksi['id'];?>)" class="btn btn-sm btn-danger">Hapus</a>
+                      
                     </td>
                     
                   </tr>
